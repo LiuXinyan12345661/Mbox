@@ -4,10 +4,15 @@ public class Main{
         MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty", 
         "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
 
+<<<<<<< HEAD
         PlaySongs playsong = new PlaySongs();
         
         playsong.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
 
+=======
+        System.out.println("Now playing the song");
+        mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
+>>>>>>> origin/demo_branch
         
         // --- TODO
 
